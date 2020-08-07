@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color:GhostWhite;
+    background-color:#0b0a25;
+    font-size: 22px;
+    text-align: center;
+}
+
+a {
+    color: ghostwhite;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    width:100%;
+    
+}
+
+.broken-green-pixel {
+    background-color: rgb(21, 255, 0);
+    width: 3px;
+    height: 3px;
+    position: fixed;
+    bottom: 126px;
+    right: 242px;
+    z-index: 9999;
+    
+}
+
+.broken-purple-pixel {
+    background-color: #FF00FF;
+    width: 2px;
+    height: 2px;
+    position: fixed;
+    top: 126px;
+    left: 242px;
+    z-index: 9999;
+    
+}
